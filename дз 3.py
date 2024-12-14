@@ -1,4 +1,6 @@
+import math
 print('первая задача:')
+
 
 
 def fibonaci():
@@ -13,15 +15,13 @@ fibonaci()
 print('вторая задача:')
 number = int(input('введите число для проверки: '))
 count = []
-for i in range(2 , number):
+for i in range(2 , int(math.sqrt(number) + 1)):
 	if number % i == 0:
-		count.append(i)
+		print(f'число {number} - не простое число,оно делиться на {i}')
+		break
 	else:
-		continue
-if  not isinstance(count, (int, float)):
-	print(f'число {number} - не простое, оно делится на {count} ')
-else:
-	print(f'число {number} - простое')
+		print(f'число {number} - простое')
+		break
 
 print('третья задача: ')
 import random
