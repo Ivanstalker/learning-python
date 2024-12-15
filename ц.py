@@ -1,4 +1,5 @@
 import math
+
 # # a = int(input('enter the first number: '))
 # # b = int(input('enter the second number: '))
 # #
@@ -32,13 +33,13 @@ import math
 # r =  float(input('enter the radius of your circle: '))
 # p = math.pi
 # print(f'the ploshad and leuight of circle is :{p * r ** 2}, {2 * p * r}')
-
-a = float(input('enter the first number: '))
-b = float(input('enter the second number: '))
-
-if a < b :
-	print(f'number {b} > number {a}')
-elif a > b:
-	print(f'number {a} > number {b}')
-elif a == b :
-	print(f'numbers are =')
+#
+# a = float(input('enter the first number: '))
+# b = float(input('enter the second number: '))
+#
+# if a < b:
+# 	print(f'number {b} > number {a}')
+# elif a > b:
+# 	print(f'number {a} > number {b}')
+# elif a == b:
+# 	print(f'numbers are =')

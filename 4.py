@@ -1,6 +1,5 @@
-import random
-import statistics
 print('перва задача \n')
+import statistics
 student = {'Имя': 'Иван',
            'Возраст': '13',
            'Математика' : [5,4,5,4,5,3],
@@ -8,7 +7,7 @@ student = {'Имя': 'Иван',
            'Биология' : [5, 5, 4, 5, 4]
 }
 print(f'средний  балл: {round(statistics.mean(student.get("Математика")+ student.get("Русский") + student.get("Биология")), 2)}')
-print('\n\n\n')
+print('\n')
 
 print('вторая задача \n')
 nums1 = {123, 34345, 45677, 11, 44}
@@ -16,7 +15,7 @@ nums2 = {4567382, 2123 , 3454, 466, 66}
 print(f'{sorted(nums1)}\n{sorted(nums2)}')
 
 print(f'обьединение: {nums1.union(nums2)}\nпересечение: {nums1.intersection(nums2)}\nразность: {nums1.difference(nums2)}')
-print('\n\n\n')
+print('\n')
 
 print('третья задача \n ')
 
@@ -34,8 +33,9 @@ class Rectangle:
 r = Rectangle(5, 14)
 print(r)
 print('площадь = ', r.area())
-print('\n\n\n')
-print('четвертая задача \b')
+print('\n')
+print('четвертая задача \n')
+import random
 
 my_list = ['banana', 'malina', 'apple']
 random.shuffle(my_list)
@@ -53,3 +53,4 @@ print(now)
 
 print('\n')
 print('шестая задача \n')
+
