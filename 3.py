@@ -10,6 +10,6 @@ while True:
 
 	if input().lower() == "y":
 		name = input('напишите имя:')
-		with open('passwords.txt', 'a') as file:
+		with open('work files/passwords.txt', 'a') as file:
 			file.write(f'{name}: {password}\n')
 			print(file)
